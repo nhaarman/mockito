@@ -50,14 +50,14 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
  * In above example, <code>initMocks()</code> is called in &#064;Before (JUnit4) method of test's base class.
  * For JUnit3 <code>initMocks()</code> can go to <code>setup()</code> method of a base class.
  * <strong>Instead</strong> you can also put initMocks() in your JUnit runner (&#064;RunWith) or use the built-in
- * {@link org.mockito.runners.MockitoJUnitRunner}.
+ * {@link org.mockito.junit.runners.MockitoJUnitRunner}.
  * </p>
  *
  * @see Mockito#mock(Class)
  * @see Spy
  * @see InjectMocks
  * @see MockitoAnnotations#initMocks(Object)
- * @see org.mockito.runners.MockitoJUnitRunner
+ * @see org.mockito.junit.runners.MockitoJUnitRunner
  */
 @Target({FIELD, PARAMETER})
 @Retention(RUNTIME)

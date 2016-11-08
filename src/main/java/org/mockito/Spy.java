@@ -86,7 +86,7 @@ import java.lang.annotation.Target;
  * in subclass are only instantiated after super class constructor has returned.
  * It's better to use &#64;Before.
  * <strong>Instead</strong> you can also put initMocks() in your JUnit runner (&#064;RunWith) or use the built-in
- * {@link org.mockito.runners.MockitoJUnitRunner}.
+ * {@link org.mockito.junit.runners.MockitoJUnitRunner}.
  * </p>
  *
  * <p>Note that the spy won't have any annotations of the spied type, because CGLIB won't rewrite them.
@@ -96,7 +96,7 @@ import java.lang.annotation.Target;
  * @see Mock
  * @see InjectMocks
  * @see MockitoAnnotations#initMocks(Object)
- * @see org.mockito.runners.MockitoJUnitRunner
+ * @see org.mockito.junit.runners.MockitoJUnitRunner
  * @since 1.8.3
  */
 @Retention(RUNTIME)

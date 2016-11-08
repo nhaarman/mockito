@@ -16,7 +16,7 @@ package org.mockito.quality;
  * How to take advantage of the hints? Use one of the JUnit integrations:
  * <ul>
  *     <li>{@link org.mockito.junit.MockitoJUnit#rule()}</li>
- *     <li>{@link org.mockito.runners.MockitoJUnitRunner}</li>
+ *     <li>{@link org.mockito.junit.runners.MockitoJUnitRunner}</li>
  * </ul>
  * Currently, the feature is available with JUnit Rule and JUnit Runner only because
  * they provide necessary hooks (the 'before' and 'after' test events).
